@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;    
+}           
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+nav {
+    background-color: #fff;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    grid-column: 1 / -1; /* Span the entire width */
+  }
+  
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    padding: 20px;
+  }
+  
+  li:first-child {
+    margin-right: auto;
+  }
+  
+  li:hover {
+    cursor: pointer;
+    background-color: rgb(233, 233, 233);
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+  }
+  
+  h1 {
+    font-size: 1.5em; /* Adjust font size as needed */
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 10px; /* Spacing between images */
+    justify-items: center; /* Center images within grid cells */
+    align-items: center; /* Center images vertically in cells */
+    padding: 20px;
+  }
+  
+  img {
+    max-height: 200px; /* Ensures images don't exceed this height */
+    width: auto; /* Maintain aspect ratio */
+  }
+  .prodact{
+    cursor: pointer;
+  }

@@ -1,0 +1,14 @@
+.comming{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.comming h1{
+    font-size: 30px;
+    color: blue;
+}
+.comming img{
+    height: 300px;
+    width: 300px;
+}
